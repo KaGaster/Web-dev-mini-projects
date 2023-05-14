@@ -196,7 +196,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function checkWin(){
         for(let i=0; i < 16; i++){
-            if (squares[i].innerHTML == 2048){
+            if (squares[i].innerHTML == 4096){
                 alert('Congratulations!! Refresh the page to play again.')
                 document.removeEventListener('keyup', control)
             }
